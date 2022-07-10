@@ -18,10 +18,12 @@
   },
   "homepage": "https://github.com/itayebe/call-of-duty#readme",
   "dependencies": {
-    "dotenv": "^16.0.1"
+    "dotenv": "^16.0.1",
+    "mongodb": "4.7"
   },
   "devDependencies": {
     "eslint": "^8.19.0",
-    "eslint-config-google": "^0.14.0"
+    "eslint-config-google": "^0.14.0",
+    "jest": "^28.1.2"
   }
 }

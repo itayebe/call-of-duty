@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "call-of-duty": "file:.."
+  }
+}
