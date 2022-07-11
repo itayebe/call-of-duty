@@ -1,4 +1,4 @@
-import Fastify from 'fastify'
+import Fastify from 'fastify';
 import 'dotenv/config';
 import { addSoldier } from './mongodb.js';
 

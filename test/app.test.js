@@ -1,5 +1,12 @@
-import { app } from '../src/app.js'
+import { app } from '../src/app.js';
 
-test('health', () => {
-    
-})
+const test = async () => {
+  const response = await app.inject({
+    method: 'GET',
+    url: '/health'
+  });
+
+  console.log('status code: ', response.statusCode);
+  console.log('body: ', response.body);
+}
+test();
